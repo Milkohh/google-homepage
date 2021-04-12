@@ -46,8 +46,13 @@ nav a:hover {
     padding: 10px;
     margin: 15px;
     width: 550px;
-    border: 1px solid rgb(201, 201, 201);
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 25px;
+}
+
+#searchbox-div:hover {
+    border: none;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 23%);
 }
 
 #searchbox-image {
