@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 #searchbox-div:hover {
-    border: none;
+    border: 1px solid transparent;
     box-shadow: 0 1px 6px rgb(32 33 36 / 23%);
 }
 
