@@ -32,11 +32,28 @@ nav a:hover {
     padding: 40px;
 }
 
-#searchbox-input {
+#searchbox-div {
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
     padding: 10px;
     margin: 15px;
-    height: 25px;
     width: 450px;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 25px;
+}
+
+#searchbox-image {
+    opacity: 75%;
+    height: 16px;
+    width: 16px;
+    margin: 5px;
+}
+
+#searchbox-input {
+    font-size: 16px;
+    border: none;
+    width: 410px;
+    outline: none;
+    background-color: transparent;
 }
